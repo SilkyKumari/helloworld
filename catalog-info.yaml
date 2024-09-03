@@ -3,6 +3,10 @@ kind: Component
 metadata:
   name: helloworld
   description: A simple hello world application
+  annotations:
+    backstage.io/ci-cd: 'github-actions'
+    github.com/ci-cd-url: 'https://github.com/SilkyKumari/helloworld/actions'
+
 spec:
   type: service
   lifecycle: production
