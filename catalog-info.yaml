@@ -1,9 +1,11 @@
-apiVersion: backstage.io/v1alpha1
+apiVersion: backstage.io/v1beta2
 kind: Component
 metadata:
-  name: tutorial
+  name: my-service
+  description: A description of my service
   annotations:
-    backstage.io/techdocs-ref: value
+    backstage.io/techdocs-ref: url:techdocs://default/my-service
 spec:
   type: service
-  owner: user:guest
+  lifecycle: production
+  owner: my-team
