@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: helloworld
+  description: A simple hello world application
+spec:
+  type: service
+  lifecycle: production
+  owner: team@example.com
+  system: my-system
+  ci:
+    - url: https://github.com/SilkyKumari/helloworld/actions
+      name: GitHub Actions
+      type: github-actions
