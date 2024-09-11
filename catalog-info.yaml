@@ -6,6 +6,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: url:techdocs://default/helloworld
     backstage.io/managed-by-location: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
+    jenkins.io/job-full-name: 'folder-name/project-name' # use this instead
 spec:
   type: service
   lifecycle: production
