@@ -4,7 +4,7 @@ metadata:
   name: helloworld
   description: A Hello World application
   annotations:
-    backstage.io/techdocs-ref: url:techdocs://default/helloworld
+    backstage.io/techdocs-ref: url:techdocs://helloworld
     backstage.io/managed-by-location: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
     kubernetes.io/cluster-name: 'minikube'
     kubernetes.io/namespace: 'default'
