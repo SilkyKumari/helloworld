@@ -11,3 +11,7 @@ spec:
   type: service
   lifecycle: production
   owner: my-team
+   kubernetes:
+    url: 'https://127.0.0.1:53876'
+    authProvider: serviceAccount
+    skipTLSVerify: true
